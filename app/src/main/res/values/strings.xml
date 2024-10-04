@@ -11,4 +11,10 @@
     <string name="menu_bottom_exercicios">Exercicio</string>
     <string name="menu_bottom_relatorio">Relatorio</string>
     <string name="menu_bottom_perfil">Perfil</string>
+
+    <string-array name="gender_array">
+        <item>Selecione o sexo</item>
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
 </resources>

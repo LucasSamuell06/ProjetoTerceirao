@@ -2,7 +2,7 @@ package com.example.healthgeneration;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.os.Handler;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,18 +10,23 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class CadastroActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_cadastro);
 
-    }
+        setContentView(R.layout.activity_splash);
 
-    public void proximo3(View view){
-        Intent in = new Intent(CadastroActivity.this, PrincipalActivity.class);
-        startActivity(in);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+
+                Intent intent = new Intent(SplashActivity.this, TelaMatriculaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 4000);
+
     }
 }

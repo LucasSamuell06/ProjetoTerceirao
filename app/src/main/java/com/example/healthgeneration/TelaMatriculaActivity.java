@@ -10,18 +10,22 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class CadastroActivity extends AppCompatActivity {
+public class TelaMatriculaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_cadastro);
+        setContentView(R.layout.activity_tela_matricula);
 
     }
 
-    public void proximo3(View view){
-        Intent in = new Intent(CadastroActivity.this, PrincipalActivity.class);
+    public void proximo5(View view){
+        Intent in = new Intent(TelaMatriculaActivity.this, CadastroActivity.class);
+        startActivity(in);
+    }
+
+    public void proximo6(View view){
+        Intent in = new Intent(TelaMatriculaActivity.this, LoginActivity.class);
         startActivity(in);
     }
 }

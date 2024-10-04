@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor7"
+    tools:context=".NovoExercicio2Activity">
+
+    <TextView
+        android:id="@+id/TextoNovoExe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Meu perfil"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <TextView
+        android:id="@+id/TextoNovoExe1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="O seu objetivo de mantém?"
+        android:fontFamily="@font/aldrich"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageButton
+        android:id="@+id/BotaoObjetivo1"
+        android:layout_width="320dp"
+        android:layout_height="85dp"
+        android:background="@drawable/botao_personalizado2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27"
+        />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hipertrofia"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aldrich"
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo1"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo1"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo1"
+        app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo1"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="311dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/aldrich"
+        android:text="Ganhar massa muscular e músculos volumosos"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo1"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo1"
+        app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo1"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <ImageButton
+        android:id="@+id/BotaoObjetivo2"
+        android:layout_width="320dp"
+        android:layout_height="85dp"
+        android:background="@drawable/botao_personalizado2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Definição muscular"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aldrich"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo2"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo2"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo2"
+        app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo2"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <TextView
+        android:id="@+id/texto4"
+        android:layout_width="305dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/aldrich"
+        android:text="Músculos mais fortes, rígidos e aparentes"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo2"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo2"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo2"
+        app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo2"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <ImageButton
+        android:id="@+id/BotaoObjetivo3"
+        android:layout_width="320dp"
+        android:layout_height="85dp"
+        android:background="@drawable/botao_personalizado2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/texto5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Emagrecer"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo3"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo3"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo3"
+        app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo3"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/texto6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Perder gordura corporal"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo3"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo3"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo3"
+        app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo3"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <Button
+        android:id="@+id/botaocontinuarexe3"
+        android:layout_width="220dp"
+        android:layout_height="58dp"
+        android:text="continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

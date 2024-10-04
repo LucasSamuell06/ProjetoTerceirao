@@ -2,4 +2,17 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cor1"> #fd5b14</color>
+    <color name="cor2"> #ff5f19</color>
+    <color name="cor3"> #faff00</color>
+    <color name="cor4">#e6e6e6</color>
+    <color name="cor5">#1a424a</color>
+    <color name="cor6"> #5d3b2b</color>
+    <color name="cor7">#4E342E</color>
+    <color name="cor8"></color>
+    <color name="cor9"></color>
+    <color name="cor10"></color>
+    <color name="cor11"></color>
+
+
 </resources>

@@ -17,19 +17,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
-
-    }
-
-    public void proximo2(View view){
-        Intent in = new Intent(LoginActivity.this, CadastroActivity.class);
-        startActivity(in);
     }
 
     public void proximo(View view){
         Intent in = new Intent(LoginActivity.this, PrincipalActivity.class);
         startActivity(in);
     }
-
-
-
 }

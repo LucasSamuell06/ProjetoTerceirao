@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/menuFragment">
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.healthgeneration.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/exerciciosFragment"
+        android:name="com.example.healthgeneration.ExerciciosFragment"
+        android:label="fragment_exercicios"
+        tools:layout="@layout/fragment_exercicios" />
+    <fragment
+        android:id="@+id/relatorioFragment"
+        android:name="com.example.healthgeneration.RelatorioFragment"
+        android:label="fragment_relatorio"
+        tools:layout="@layout/fragment_relatorio" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.healthgeneration.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>
