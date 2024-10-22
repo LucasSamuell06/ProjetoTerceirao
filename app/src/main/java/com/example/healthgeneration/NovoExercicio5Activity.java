@@ -10,18 +10,18 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class NovoExercicio2Activity extends AppCompatActivity {
+public class NovoExercicio5Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_novo_exercicio2);
+        setContentView(R.layout.activity_novo_exercicio5);
 
     }
 
-    public void next(View view){
-        Intent in = new Intent(NovoExercicio2Activity.this, NovoExercicio3Activity.class);
+    public void next3(View view){
+        Intent in = new Intent(NovoExercicio5Activity.this, NovoExercicio6Activity.class);
         startActivity(in);
     }
 }

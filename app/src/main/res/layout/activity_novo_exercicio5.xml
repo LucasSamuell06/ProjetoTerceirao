@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cor7"
-    tools:context=".NovoExercicio3Activity">
+    tools:context=".NovoExercicio5Activity">
 
     <TextView
         android:id="@+id/TextoNovoExe"
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="Qual é o grupo muscular que deseja focar agora?"
+        android:text="Em quais dias da semana você vai treinar?"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:fontFamily="@font/aldrich"
@@ -39,203 +39,207 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <ImageButton
-        android:id="@+id/BotaoCorpo"
-        android:layout_width="150dp"
+        android:id="@+id/BotaoSexta"
+        android:layout_width="170dp"
         android:layout_height="65dp"
         android:layout_marginLeft="10dp"
         android:background="@drawable/botao_personalizado2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <TextView
+        android:id="@+id/textoSexta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Sexta-feira"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoSexta"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoSexta"
+        app:layout_constraintStart_toStartOf="@+id/BotaoSexta"
+        app:layout_constraintTop_toTopOf="@+id/BotaoSexta" />
+
+    <ImageButton
+        android:id="@+id/BotaoQuinta"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/botao_personalizado2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <TextView
+        android:id="@+id/textoQuinta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Quinta-feira"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoQuinta"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoQuinta"
+        app:layout_constraintStart_toStartOf="@+id/BotaoQuinta"
+        app:layout_constraintTop_toTopOf="@+id/BotaoQuinta" />
+
+    <ImageButton
+        android:id="@+id/BotaoSegunda"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/botao_personalizado2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289" />
+
+    <TextView
+        android:id="@+id/textoSegunda"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Segunda-feira"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoSegunda"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoSegunda"
+        app:layout_constraintStart_toStartOf="@+id/BotaoSegunda"
+        app:layout_constraintTop_toTopOf="@+id/BotaoSegunda" />
+
+    <ImageButton
+        android:id="@+id/BotaoTerca"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/botao_personalizado2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.291" />
 
     <TextView
-        android:id="@+id/textoCorpo"
+        android:id="@+id/textoTerca"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aldrich"
-        android:text="CORPO"
+        android:text="Terça-feira"
         android:textColor="@color/white"
         android:textAlignment="center"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/BotaoCorpo"
-        app:layout_constraintEnd_toEndOf="@+id/BotaoCorpo"
-        app:layout_constraintStart_toStartOf="@+id/BotaoCorpo"
-        app:layout_constraintTop_toTopOf="@+id/BotaoCorpo" />
-
-
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoTerca"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoTerca"
+        app:layout_constraintStart_toStartOf="@+id/BotaoTerca"
+        app:layout_constraintTop_toTopOf="@+id/BotaoTerca" />
 
     <ImageButton
-        android:id="@+id/BotaoPeito"
-        android:layout_width="150dp"
+        android:id="@+id/BotaoQuarta"
+        android:layout_width="170dp"
         android:layout_height="65dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
         android:background="@drawable/botao_personalizado2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.291" />
+        app:layout_constraintVertical_bias="0.414" />
 
     <TextView
-        android:id="@+id/textoPeito"
+        android:id="@+id/textoQuarta"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="PEITO"
+        android:fontFamily="@font/aldrich"
+        android:text="Quarta-feira"
         android:textColor="@color/white"
         android:textAlignment="center"
         android:textSize="20dp"
-        android:fontFamily="@font/aldrich"
-        app:layout_constraintBottom_toBottomOf="@+id/BotaoPeito"
-        app:layout_constraintEnd_toEndOf="@+id/BotaoPeito"
-        app:layout_constraintStart_toStartOf="@+id/BotaoPeito"
-        app:layout_constraintTop_toTopOf="@+id/BotaoPeito" />
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoQuarta"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoQuarta"
+        app:layout_constraintStart_toStartOf="@+id/BotaoQuarta"
+        app:layout_constraintTop_toTopOf="@+id/BotaoQuarta" />
 
     <ImageButton
-        android:id="@+id/BotaoAbdomen"
-        android:layout_width="150dp"
+        android:id="@+id/BotaoSabado"
+        android:layout_width="170dp"
         android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
         android:background="@drawable/botao_personalizado2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.531" />
+        app:layout_constraintVertical_bias="0.539" />
 
     <TextView
-        android:id="@+id/textoAbdomen"
+        android:id="@+id/textoSabado"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="ABDÔMEN"
+        android:fontFamily="@font/aldrich"
+        android:text="Sábado"
         android:textColor="@color/white"
         android:textAlignment="center"
         android:textSize="20dp"
-        android:fontFamily="@font/aldrich"
-        app:layout_constraintBottom_toBottomOf="@+id/BotaoAbdomen"
-        app:layout_constraintEnd_toEndOf="@+id/BotaoAbdomen"
-        app:layout_constraintStart_toStartOf="@+id/BotaoAbdomen"
-        app:layout_constraintTop_toTopOf="@+id/BotaoAbdomen" />
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoSabado"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoSabado"
+        app:layout_constraintStart_toStartOf="@+id/BotaoSabado"
+        app:layout_constraintTop_toTopOf="@+id/BotaoSabado" />
 
     <ImageButton
-        android:id="@+id/BotaoBraco"
-        android:layout_width="150dp"
+        android:id="@+id/BotaoDomingo"
+        android:layout_width="170dp"
         android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
         android:background="@drawable/botao_personalizado2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.666" />
 
     <TextView
-        android:id="@+id/textoBraco"
+        android:id="@+id/textoDomingo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="BRAÇO"
-        android:textSize="20dp"
         android:fontFamily="@font/aldrich"
-        android:textColor="@color/white"
+        android:text="Domingo"
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="@+id/BotaoBraco"
-        app:layout_constraintEnd_toEndOf="@+id/BotaoBraco"
-        app:layout_constraintStart_toStartOf="@+id/BotaoBraco"
-        app:layout_constraintTop_toTopOf="@+id/BotaoBraco" />
-
-    <ImageButton
-        android:id="@+id/BotaoPerna"
-        android:layout_width="150dp"
-        android:layout_height="65dp"
-        android:background="@drawable/botao_personalizado2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
-
-    <TextView
-        android:id="@+id/textoPerna"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="PERNA"
         android:textColor="@color/white"
-        android:textAlignment="center"
         android:textSize="20dp"
-        android:fontFamily="@font/aldrich"
-        app:layout_constraintBottom_toBottomOf="@+id/BotaoPerna"
-        app:layout_constraintEnd_toEndOf="@+id/BotaoPerna"
-        app:layout_constraintStart_toStartOf="@+id/BotaoPerna"
-        app:layout_constraintTop_toTopOf="@+id/BotaoPerna" />
-
-    <ImageButton
-        android:id="@+id/BotaoCosta"
-        android:layout_width="150dp"
-        android:layout_height="65dp"
-        android:background="@drawable/botao_personalizado2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.531" />
-
-    <TextView
-        android:id="@+id/textoCosta"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="COSTA"
-        android:textColor="@color/white"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        android:fontFamily="@font/aldrich"
-        app:layout_constraintBottom_toBottomOf="@+id/BotaoCosta"
-        app:layout_constraintEnd_toEndOf="@+id/BotaoCosta"
-        app:layout_constraintStart_toStartOf="@+id/BotaoCosta"
-        app:layout_constraintTop_toTopOf="@+id/BotaoCosta" />
-
-    <ImageButton
-        android:id="@+id/BotaoGluteos"
-        android:layout_width="150dp"
-        android:layout_height="65dp"
-        android:background="@drawable/botao_personalizado2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
-
-    <TextView
-        android:id="@+id/textoGluteo"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="GLÚTEOS"
-        android:textColor="@color/white"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        android:fontFamily="@font/aldrich"
-        app:layout_constraintBottom_toBottomOf="@+id/BotaoGluteos"
-        app:layout_constraintEnd_toEndOf="@+id/BotaoGluteos"
-        app:layout_constraintStart_toStartOf="@+id/BotaoGluteos"
-        app:layout_constraintTop_toTopOf="@+id/BotaoGluteos" />
+        app:layout_constraintBottom_toBottomOf="@+id/BotaoDomingo"
+        app:layout_constraintEnd_toEndOf="@+id/BotaoDomingo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/BotaoDomingo"
+        app:layout_constraintTop_toTopOf="@+id/BotaoDomingo"
+        app:layout_constraintVertical_bias="0.472" />
 
     <Button
-    android:id="@+id/botaocontinuarexe4"
-    android:layout_width="220dp"
-    android:layout_height="58dp"
-    android:text="continuar"
-    android:onClick="next1"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.498"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.819" />
+        android:id="@+id/botaoNivel"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:onClick="next3"
+        android:text="continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.844" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

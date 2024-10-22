@@ -9,10 +9,15 @@
     <color name="cor5">#1a424a</color>
     <color name="cor6"> #5d3b2b</color>
     <color name="cor7">#4E342E</color>
-    <color name="cor8"></color>
-    <color name="cor9"></color>
-    <color name="cor10"></color>
+    <color name="cor8">#FF5722</color>
+    <color name="cor9">#BF360C</color>
+    <color name="cor10">#5D4037</color>
     <color name="cor11"></color>
+    <color name="cor12"></color>
+    <color name="cor13"></color>
+    <color name="cor14"></color>
+    <color name="cor15"></color>
+    <color name="cor16"></color>
 
 
 </resources>

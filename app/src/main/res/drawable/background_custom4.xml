@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fundo com gradiente usando os tons fornecidos -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#0C1717"
+            android:endColor="#1A3327"
+            android:angle="90" />
+        </shape>
+    </item>
+
+    <!-- Sobreposição com cor clara e contorno -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="#F2F6F2"/> <!-- Cor clara e suave para contraste -->
+            <stroke android:width="4dp" android:color="#0BA57C" /> <!-- Contorno verde vibrante -->
+            <padding android:left="12dp" android:right="12dp" android:top="12dp" android:bottom="12dp"/>
+        </shape>
+    </item>
+</layer-list>

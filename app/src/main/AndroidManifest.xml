@@ -13,6 +13,13 @@
         android:theme="@style/Theme.HealthGeneration"
         tools:targetApi="31">
         <activity
+            android:name=".NovoExercicio5Activity"
+            android:exported="false"
+            android:theme="@style/Theme.HealthGeneration" />
+        <activity
+            android:name=".NovoExercicio6Activity"
+            android:exported="false" />
+        <activity
             android:name=".NovoExercicio4Activity"
             android:exported="false" />
         <activity

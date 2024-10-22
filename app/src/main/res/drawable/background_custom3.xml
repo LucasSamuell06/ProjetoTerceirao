@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background with a dark brown gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/cor10"
+            android:endColor="#3E2723"
+            android:angle="90" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <solid android:color="@color/cor8"/>
+            <stroke android:width="4dp" android:color="@color/cor9" />
+            <padding android:left="10dp" android:right="10dp" android:top="10dp" android:bottom="10dp"/>
+        </shape>
+    </item>
+</layer-list>
