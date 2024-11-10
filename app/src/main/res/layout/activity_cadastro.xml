@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/imagemlogo"
-        android:layout_width="934dp"
-        android:layout_height="548dp"
+        android:layout_width="670dp"
+        android:layout_height="440dp"
         android:adjustViewBounds="true"
         android:src="@drawable/logodahealthgeneration1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,22 +20,21 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.008" />
+        app:layout_constraintVertical_bias="0.096" />
 
     <TextView
         android:id="@+id/textoCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/angkor"
-        android:text="CADASTRO"
+        android:text="CADASTRE-SE"
         android:textColor="@color/white"
         android:textSize="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.455" />
+        app:layout_constraintVertical_bias="0.445" />
 
     <EditText
         android:id="@+id/Cadastronome"
@@ -46,12 +45,26 @@
         android:hint="NOME"
         android:inputType="text"
         android:padding="13dp"
+        android:paddingEnd="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.573" />
+        app:layout_constraintVertical_bias="0.556" />
+
+    <ImageView
+        android:id="@+id/IconeNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user_line"
+        app:layout_constraintBottom_toBottomOf="@+id/Cadastronome"
+        app:layout_constraintEnd_toEndOf="@+id/Cadastronome"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="@+id/Cadastronome"
+        app:layout_constraintTop_toTopOf="@+id/Cadastronome"
+        app:layout_constraintVertical_bias="0.4" />
+
 
     <EditText
         android:id="@+id/Cadastroemail"
@@ -62,12 +75,25 @@
         android:hint="E-MAIL"
         android:inputType="textEmailAddress"
         android:padding="13dp"
+        android:paddingEnd="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.665" />
+        app:layout_constraintVertical_bias="0.655" />
+
+    <ImageView
+        android:id="@+id/IconeEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_email_24"
+        app:layout_constraintBottom_toBottomOf="@+id/Cadastroemail"
+        app:layout_constraintEnd_toEndOf="@+id/Cadastroemail"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="@+id/Cadastroemail"
+        app:layout_constraintTop_toTopOf="@+id/Cadastroemail"
+        app:layout_constraintVertical_bias="0.4" />
 
     <EditText
         android:id="@+id/Cadastrosenha"
@@ -78,26 +104,44 @@
         android:hint="SENHA"
         android:inputType="textPassword"
         android:padding="13dp"
+        android:paddingEnd="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.754" />
+
+    <ImageView
+        android:id="@+id/IconeSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_remove_red_eye_24"
+        app:layout_constraintBottom_toBottomOf="@+id/Cadastrosenha"
+        app:layout_constraintEnd_toEndOf="@+id/Cadastrosenha"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="@+id/Cadastrosenha"
+        app:layout_constraintTop_toTopOf="@+id/Cadastrosenha"
+        app:layout_constraintVertical_bias="0.4" />
 
     <Button
         android:id="@+id/buttonEntrar"
-        android:layout_width="220dp"
-        android:layout_height="58dp"
-        android:backgroundTint="@color/cor5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/cor8"
+        android:fontFamily="@font/angkor"
         android:onClick="proximo"
-        android:text="Entrar"
+        android:text="Cadastrar"
+        android:textSize="18dp"
+        app:cornerRadius="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.853"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

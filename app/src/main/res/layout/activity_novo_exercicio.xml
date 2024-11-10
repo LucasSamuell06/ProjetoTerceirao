@@ -200,13 +200,18 @@
         android:id="@+id/botaocontinuar"
         android:layout_width="220dp"
         android:layout_height="58dp"
-        android:text="CONTINUAR"
+        android:backgroundTint="@color/cor7"
+        android:fontFamily="@font/aldrich"
         android:onClick="proximo7"
+        android:text="CONTINUAR"
+        app:cornerRadius="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintVertical_bias="0.918"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -38,7 +38,7 @@
 
     <ImageButton
         android:id="@+id/BotaoObjetivo1"
-        android:layout_width="320dp"
+        android:layout_width="360dp"
         android:layout_height="85dp"
         android:background="@drawable/botao_personalizado2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,6 +48,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.27"
         />
+
+
 
     <TextView
         android:id="@+id/texto1"
@@ -74,14 +76,14 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo1"
         app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo1"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo1"
         app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo1"
         app:layout_constraintVertical_bias="0.714" />
 
     <ImageButton
         android:id="@+id/BotaoObjetivo2"
-        android:layout_width="320dp"
+        android:layout_width="360dp"
         android:layout_height="85dp"
         android:background="@drawable/botao_personalizado2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -90,6 +92,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.43" />
+
+
 
     <TextView
         android:id="@+id/texto3"
@@ -106,6 +110,13 @@
         app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo2"
         app:layout_constraintVertical_bias="0.18" />
 
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="398dp" />
+
     <TextView
         android:id="@+id/texto4"
         android:layout_width="305dp"
@@ -116,14 +127,14 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo2"
         app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo2"
-        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintHorizontal_bias="0.218"
         app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo2"
         app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo2"
         app:layout_constraintVertical_bias="0.787" />
 
     <ImageButton
         android:id="@+id/BotaoObjetivo3"
-        android:layout_width="320dp"
+        android:layout_width="360dp"
         android:layout_height="85dp"
         android:background="@drawable/botao_personalizado2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -132,6 +143,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.599" />
+
 
     <TextView
         android:id="@+id/texto5"
@@ -143,10 +155,10 @@
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo3"
         app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo3"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.034"
         app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo3"
         app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo3"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.186" />
 
     <TextView
         android:id="@+id/texto6"
@@ -158,23 +170,28 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="@+id/BotaoObjetivo3"
         app:layout_constraintEnd_toEndOf="@+id/BotaoObjetivo3"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="@+id/BotaoObjetivo3"
         app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo3"
-        app:layout_constraintVertical_bias="0.682" />
+        app:layout_constraintVertical_bias="0.587" />
 
     <Button
         android:id="@+id/botaocontinuarexe3"
         android:layout_width="220dp"
         android:layout_height="58dp"
+        android:backgroundTint="@color/cor7"
+        android:fontFamily="@font/aldrich"
         android:text="continuar"
         android:onClick="next"
+        app:cornerRadius="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.819" />
+        app:layout_constraintVertical_bias="0.819"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

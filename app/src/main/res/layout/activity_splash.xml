@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="807dp"
-        android:layout_height="620dp"
+        android:layout_width="840dp"
+        android:layout_height="640dp"
         android:src="@drawable/logodahealthgeneration1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

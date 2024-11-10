@@ -11,14 +11,14 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="944dp"
-        android:layout_height="548dp"
+        android:layout_width="670dp"
+        android:layout_height="460dp"
         android:src="@drawable/logodahealthgeneration1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.057" />
 
     <TextView
         android:id="@+id/textoLogin"
@@ -30,9 +30,10 @@
         android:textSize="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485" />
+        app:layout_constraintVertical_bias="0.457" />
 
     <EditText
         android:id="@+id/LoginEmail"
@@ -43,12 +44,25 @@
         android:hint="E-MAIL"
         android:inputType="text"
         android:padding="13dp"
+        android:paddingEnd="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599" />
+        app:layout_constraintVertical_bias="0.544" />
+
+    <ImageView
+        android:id="@+id/IconeEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_email_24"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginEmail"
+        app:layout_constraintEnd_toEndOf="@+id/LoginEmail"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="@+id/LoginEmail"
+        app:layout_constraintTop_toTopOf="@+id/LoginEmail"
+        app:layout_constraintVertical_bias="0.4" />
 
     <EditText
         android:id="@+id/LoginSenha"
@@ -58,26 +72,79 @@
         android:hint="SENHA"
         android:inputType="textPassword"
         android:padding="13dp"
+        android:paddingEnd="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.708" />
+        app:layout_constraintVertical_bias="0.643" />
+
+    <ImageView
+        android:id="@+id/IconeSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_remove_red_eye_24"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginSenha"
+        app:layout_constraintEnd_toEndOf="@+id/LoginSenha"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="@+id/LoginSenha"
+        app:layout_constraintTop_toTopOf="@+id/LoginSenha"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/NaoTemCadastro"
+        android:layout_width="365dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/angkor"
+        android:text="Não possui cadastro? Cadastre-se agora!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
 
     <Button
         android:id="@+id/buttonEntrar"
-        android:layout_width="220dp"
-        android:layout_height="59dp"
-        android:backgroundTint="@color/cor5"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/cor8"
+        android:fontFamily="@font/angkor"
         android:onClick="proximo"
         android:text="Entrar"
+        android:textSize="18dp"
+        app:cornerRadius="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.847" />
+        app:layout_constraintVertical_bias="0.748"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/buttonCadastroNovo"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/cor8"
+        android:fontFamily="@font/angkor"
+        android:onClick="proximo2"
+        android:text="Cadastre-se"
+        android:textSize="18dp"
+        app:cornerRadius="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

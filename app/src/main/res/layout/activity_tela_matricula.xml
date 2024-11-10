@@ -11,48 +11,56 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="860dp"
-        android:layout_height="567dp"
+        android:layout_width="690dp"
+        android:layout_height="490dp"
         android:src="@drawable/logodahealthgeneration1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.228" />
 
     <Button
         android:id="@+id/botao_matricula"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/botao_personalizado"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/cor8"
+        android:fontFamily="@font/angkor"
         android:onClick="proximo5"
         android:padding="12dp"
         android:text="MATRICULE-SE AGORA"
         android:textColor="@color/white"
         android:textSize="22dp"
+        app:cornerRadius="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" />
+        app:layout_constraintVertical_bias="0.62"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/botao_matricula2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/botao_personalizado"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/cor8"
+        android:fontFamily="@font/angkor"
         android:onClick="proximo6"
         android:padding="12dp"
         android:text="JÁ TENHO UMA CONTA"
         android:textColor="@color/white"
         android:textSize="22dp"
+        app:cornerRadius="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.834"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
