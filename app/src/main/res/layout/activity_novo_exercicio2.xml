@@ -50,6 +50,12 @@
         />
 
 
+    <CheckBox
+        android:id="@+id/checkHiper"
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="198dp" />
 
     <TextView
         android:id="@+id/texto1"
@@ -94,6 +100,12 @@
         app:layout_constraintVertical_bias="0.43" />
 
 
+    <CheckBox
+        android:id="@+id/checkDefi"
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="300dp" />
 
     <TextView
         android:id="@+id/texto3"
@@ -110,12 +122,6 @@
         app:layout_constraintTop_toTopOf="@+id/BotaoObjetivo2"
         app:layout_constraintVertical_bias="0.18" />
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="315dp"
-        tools:layout_editor_absoluteY="398dp" />
 
     <TextView
         android:id="@+id/texto4"
@@ -144,6 +150,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.599" />
 
+
+    <CheckBox
+        android:id="@+id/checkEma"
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="410dp" />
 
     <TextView
         android:id="@+id/texto5"

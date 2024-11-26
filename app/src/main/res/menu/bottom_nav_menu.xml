@@ -5,10 +5,6 @@
         android:icon="@drawable/home_2_line"
         android:title="Menu" />
     <item
-        android:id="@+id/nav_exercicio"
-        android:icon="@drawable/menu_fill"
-        android:title="Exercício" />
-    <item
         android:id="@+id/nav_relatorio"
         android:icon="@drawable/bar_chart_fill"
         android:title="Relatório" />

@@ -10,11 +10,6 @@
         android:label="fragment_menu"
         tools:layout="@layout/fragment_menu" />
     <fragment
-        android:id="@+id/exerciciosFragment"
-        android:name="com.example.healthgeneration.ExerciciosFragment"
-        android:label="fragment_exercicios"
-        tools:layout="@layout/fragment_exercicios" />
-    <fragment
         android:id="@+id/relatorioFragment"
         android:name="com.example.healthgeneration.RelatorioFragment"
         android:label="fragment_relatorio"
